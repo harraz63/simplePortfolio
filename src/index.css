@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.active {
+  background-color: #1abc9c;
+  border-radius: 8px;
+}
+
+@media (max-width: 640px) {
+  .nav-head {
+    font-size: 30px;
+    font-weight: 700;
+  }
+  .nav-padding-small-screens {
+    padding: 0 10px;
+  }
+  .about-head {
+    font-size: 30px;
+  }
+  .about {
+    padding: 100px 0;
+  }
+  .portfolio {
+    padding: 0 10px;
+  }
+  .portfolio-head {
+    font-size: 30px;
+    font-weight: 700;
+  }
+  .contact {
+    padding: 25px 10px;
+    
+  }
+  .contact-head {
+    font-size: 30px;
+    font-weight: 700;
+  }
+}

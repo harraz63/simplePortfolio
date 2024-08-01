@@ -12,7 +12,7 @@ import Contact from "./Components/Contact/Contact";
 function App() {
   const router = createBrowserRouter([
     {
-      path: "",
+      path: "simplePortfolio",
       element: <Layout />,
       children: [
         { index: true, element: <Home /> },
